@@ -1,0 +1,17 @@
+{
+  "name": "babylon-typescript-export-import",
+  "version": "1.0.0",
+  "description": "See [babylonjs.com](http://www.babylonjs.com/) or on [github/BabylongJS](https://github.com/BabylonJS/Babylon.js).",
+  "main": "Table.js",
+  "scripts": {
+    "browserify": "browserify ./test.js ./Table.js -o ./bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.1.1",
+    "jspm": "^0.16.48",
+    "webpack": "^1.14.0"
+  }
+}
